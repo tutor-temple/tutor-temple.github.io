@@ -39351,7 +39351,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
-
+@media (max-width: 575px) {
+  .u-header .u-icon-1 {
+    margin-top: -46px;
+    margin-bottom: 8px;
+    margin-left: -47px;
+  }
+}
  .u-footer {
   background-image: none;
 }
